@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.card{
+    width: 100px;
+    flex-basis: 20%;
+    border-radius: 5px;
+    border: 0.2px solid gray;
+}
+
+.card img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.du-lieu{
+    margin: 10px 5px;
+    color: rgb(238, 154, 154);
+    padding-bottom: 10px;
+    border-bottom: 0.5px solid gray;
+}
+
+.du-lieu i{
+    width: 15%;
+    text-align: center;
+    color: rgb(84, 84, 221);
+}
+
+.dia-chi, .dien-tich, .muc-dich{
+    display: flex;
+}
+
+.dia-chi i{
+    color: rgb(255, 72, 72);
+}
+
+.them{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 10px;
+    color: rgb(84, 84, 221);
+}
+
+.them a{
+    color: rgb(84, 84, 221);
+    border: 1px dotted rgb(84, 84, 221);
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 3px;
+}
